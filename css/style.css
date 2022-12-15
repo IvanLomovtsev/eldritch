@@ -1,0 +1,151 @@
+body {
+    background: url('../assets/home.png');
+    background-size: cover;
+    display: flex;
+    font-family: Neucha, sans-serif;
+}
+.header {
+    margin-top: 5%;
+    font-size: 1.5em;
+    color: darkgoldenrod;
+}
+.choice-ancient {
+    width: 33%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pair-card {
+    width: 87%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.ancient-card {
+    width: 180px;
+    height: 230px;
+    cursor: pointer;
+}
+.scale {
+    transition: .3s;
+}
+.azathoth {
+    background: url('../assets/Ancients/Azathoth.png');
+    background-size: 100%;
+}
+.cthulhu {
+    background: url('../assets/Ancients/Cthulthu.png');
+    background-size: 100%;
+}
+.iogSothoth {
+    background: url('../assets/Ancients/IogSothoth.png');
+    background-size: 100%;
+}
+.shubNiggurath {
+    background: url('../assets/Ancients/ShubNiggurath.png');
+    background-size: 100%;
+}
+.scale:hover {
+    transform: scale(1.2);
+}
+.difficulty {
+    width: 33%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.level {
+    margin-top: 7%;
+    width: 60%;
+    padding: 3%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Neucha;
+    cursor: pointer;
+    background-color:khaki;
+    transition: .3s;
+}
+.game {
+    width: 33%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myth-deck {
+    margin-top: 2.5%;
+    width: 50%;
+    background-color:khaki;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stage {
+    width: 100%;
+    display: flex;
+    margin: 2%;
+    justify-content: space-between;
+}
+.num {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+}
+.green {
+    background-color: green;
+}
+.brown {
+    background-color: brown;
+}
+.blue {
+    background-color: blue;
+}
+.distribution {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.mix-up {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 60%;
+    padding: 3%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Neucha;
+    cursor: pointer;
+    background-color:khaki;
+    transition: .3s;
+}
+.collection {
+    width: 87%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.mythicCardBackground {
+    width: 180px;
+    height: 230px;
+    cursor: pointer;
+    background: url('../assets/mythicCardBackground.png');
+    background-size: 100%;
+}
+.hide-card {
+    display: none;
+}
+.current-card {
+    width: 180px;
+    height: 230px;
+    background-size: 100%;
+}

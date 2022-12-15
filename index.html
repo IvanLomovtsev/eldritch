@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eldritch Horror</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="choice-ancient">
+        <div class="header">Выбор древнего</div>
+        <div class="pair-card">
+            <button class="ancient-card azathoth scale"></button>
+            <button class="ancient-card cthulhu scale"></button>
+        </div>
+        <div class="pair-card">
+            <button class="ancient-card iogSothoth scale"></button>
+            <button class="ancient-card shubNiggurath scale"></button>
+        </div>
+    </div>
+    <div class="difficulty">
+        <div class="header">Выбор уровня сложности</div>
+        <button class="level very-light" disabled="true">Очень лёгкий уровень</button>
+        <button class="level light" disabled="true">Лёгкий уровень</dbutton>
+        <button class="level medium" disabled="true">Средний уровень</button>
+        <button class="level hard" disabled="true">Высокий уровень</button>
+        <button class="level very-hard" disabled="true">Очень высокий уровень</button>
+    </div>
+    <div class="game">
+        <div class="header">Трекер состояния колоды</div>
+        <div class="myth-deck">
+            <div class="header-stage">Этап I</div>
+            <div class="stage first">
+                <div class="num green"></div>
+                <div class="num brown"></div>
+                <div class="num blue"></div>
+            </div>
+            <div class="header-stage">Этап II</div>
+            <div class="stage second">
+                <div class="num green"></div>
+                <div class="num brown"></div>
+                <div class="num blue"></div>
+            </div>
+            <div class="header-stage">Этап III</div>
+            <div class="stage third">
+                <div class="num green"></div>
+                <div class="num brown"></div>
+                <div class="num blue"></div>
+            </div>
+        </div>
+        <div class="distribution">
+            <button class="mix-up" disabled="true">Замешать колоду</button>
+            <div class="collection">
+                <div class="current-card">
+
+                </div>
+                <button class="mythicCardBackground hide-card"></button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
