@@ -1,5 +1,6 @@
 body {
-    background: url('../assets/home.png');
+    min-width: 1000px;
+    background: url('../assets/home.png') no-repeat;
     background-size: cover;
     display: flex;
     font-family: Neucha, sans-serif;
